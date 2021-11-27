@@ -1,0 +1,5 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["types", "index"],
+  "exclude": ["node_modules"],
+}
