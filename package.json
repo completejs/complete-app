@@ -5,7 +5,8 @@
   "useWorkspaces": true,
   "workspaces": {
     "packages": [
-      "packages/*"
+      "app",
+      "mobile"
     ],
     "nohoist": [
       "**/react",
@@ -16,5 +17,16 @@
       "**/react-native-windows",
       "**/react-native-web"
     ]
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react-app": "^6.2.2",
+    "eslint-plugin-react-native": "^3.11.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2",
+    "ultra-runner": "^3.10.5"
   }
 }
