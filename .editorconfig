@@ -17,10 +17,6 @@ trim_trailing_whitespace = true
 [*.{md,html,mjml}]
 trim_trailing_whitespace = false
 
-[Dockerfile]
-indent_style = space
-indent_size = 2
-
 # Windows files
 [*.bat]
 end_of_line = crlf

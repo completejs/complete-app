@@ -11,7 +11,8 @@
     "pods": "pod-install",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "yarn lint --fix",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.13",
