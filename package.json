@@ -6,7 +6,8 @@
   "workspaces": {
     "packages": [
       "app",
-      "mobile"
+      "mobile",
+      "web"
     ],
     "nohoist": [
       "**/react",
@@ -26,6 +27,8 @@
     "ios:start": "yarn workspace mobile ios",
     "ios:xcode": "yarn workspace mobile xcode",
     "ios:pods": "yarn workspace mobile pods",
+    "web:start": "yarn workspace web start",
+    "web:build": "yarn workspace web build",
     "lint": "ultra -r lint",
     "lint:fix": "ultra -r lint:fix",
     "test": "ultra -r test",
