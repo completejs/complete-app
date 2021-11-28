@@ -18,6 +18,19 @@
       "**/react-native-web"
     ]
   },
+  "scripts": {
+    "android:metro": "yarn workspace mobile start",
+    "android:start": "yarn workspace mobile android",
+    "android:studio": "yarn workspace mobile studio",
+    "ios:metro": "yarn workspace mobile start",
+    "ios:start": "yarn workspace mobile ios",
+    "ios:xcode": "yarn workspace mobile xcode",
+    "ios:pods": "yarn workspace mobile pods",
+    "lint": "ultra -r lint",
+    "lint:fix": "ultra -r lint:fix",
+    "test": "ultra -r test",
+    "typecheck": "ultra -r typecheck"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
